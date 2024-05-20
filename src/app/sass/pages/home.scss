@@ -1,0 +1,112 @@
+.home {
+  padding: 20px 0px;
+  margin-left: 255px;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    .home__top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      svg {
+        font-size: 30px;
+      }
+      .person__img {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+      }
+    }
+    .home__center {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &__right {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+      }
+      p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 25px;
+        width: 71px;
+        height: 35px;
+        border-radius: 5px;
+        background: rgb(238, 242, 245);
+        font-size: 40px;
+      }
+      span {
+        border-radius: 5px;
+        width: 71.09px;
+        height: 35.5px;
+        background: rgb(16, 205, 69);
+      }
+    }
+    .home__bottom {
+      &__list {
+        display: flex;
+        justify-content: space-between;
+        li {
+          h3 {
+            padding-bottom: 20px;
+            color: rgb(135, 135, 135);
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19px;
+            letter-spacing: 0%;
+          }
+          .home__bottom__item__list {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 15px;
+            li {
+              height: 66px;
+              padding: 15px 0px;
+              color: rgb(65, 65, 65);
+              font-size: 14px;
+              font-weight: 500;
+              line-height: 17px;
+              letter-spacing: 0%;
+            }
+          }
+          .img__list {
+            display: flex;
+            li {
+              display: flex;
+              align-items: center;
+              gap: 20px;
+              .img__list__img {
+                width: 36px;
+                height: 36px;
+                object-fit: cover;
+              }
+              p {
+                width: 144px;
+              }
+            }
+          }
+          .profits__list {
+            li {
+              color: rgb(0, 202, 57);
+            }
+          }
+          .losses__list {
+            li {
+              color: red;
+            }
+            .phone__list {
+              li {
+                color: rgb(65, 65, 65);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

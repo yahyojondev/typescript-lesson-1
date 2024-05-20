@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  cursor: pointer;
+}
+.container {
+  width: 100%;
+  max-width: 1480px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.container__body {
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+@import "./components/navbar.scss";
+@import "./pages/home.scss";
