@@ -2,6 +2,7 @@
   padding: 20px 0px;
   margin-left: 255px;
   &__wrapper {
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     gap: 60px;
@@ -86,7 +87,17 @@
                 object-fit: cover;
               }
               p {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
                 width: 144px;
+                span {
+                  color: rgb(197, 199, 205);
+                  font-size: 12px;
+                  font-weight: 400;
+                  line-height: 16px;
+                  letter-spacing: 0.1px;
+                }
               }
             }
           }
@@ -102,6 +113,70 @@
             .phone__list {
               li {
                 color: rgb(65, 65, 65);
+              }
+            }
+          }
+          .customer__list {
+            li {
+              display: flex;
+              flex-direction: column;
+              gap: 5px;
+              p {
+                color: rgb(37, 39, 51);
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+              }
+              span {
+                color: rgb(197, 199, 205);
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 16px;
+                letter-spacing: 0.1px;
+              }
+            }
+          }
+          .data__list {
+            li {
+              display: flex;
+              flex-direction: column;
+              gap: 5px;
+            }
+            p {
+              color: rgb(37, 39, 51);
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 20px;
+              letter-spacing: 0.2px;
+            }
+            span {
+              color: rgb(197, 199, 205);
+              font-size: 12px;
+              font-weight: 400;
+              line-height: 16px;
+              letter-spacing: 0.1px;
+            }
+          }
+          .priority__list {
+            li {
+              p {
+                height: 24px;
+                width: 54px;
+                border-radius: 100px;
+                background: rgb(241, 43, 44);
+              }
+              h4 {
+                border-radius: 100px;
+                width: 54px;
+                height: 24px;
+                background: rgb(254, 196, 0);
+              }
+              h2 {
+                border-radius: 100px;
+                width: 76px;
+                height: 24px;
+                background: rgb(41, 204, 151);
               }
             }
           }

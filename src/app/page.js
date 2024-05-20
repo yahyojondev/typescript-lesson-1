@@ -174,6 +174,260 @@ export default function Home() {
             </ul>
           </div>
         </div>
+        <div className="home__wrapper">
+          <div className="home__top">
+            <GiHamburgerMenu />
+            <Image className="person__img" src={personimages} alt="rasm" />
+          </div>
+          <div className="home__center">
+            <h1>Ticket</h1>
+            <div className="home__center__right">
+              <p>...</p>
+              <span></span>
+            </div>
+          </div>
+          <div className="home__bottom">
+            <ul className="home__bottom__list">
+              <li>
+                <h3>Ticket detalist</h3>
+                <ul className="home__bottom__item__list img__list">
+                  <li>
+                    <Image src={homeimg1} alt="rasm" />
+                    <p>
+                      Savannah Nguyen
+                      <span>Updated 1 day ago</span>
+                    </p>
+                  </li>
+                  <li>
+                    <Image
+                      className="img__list__img"
+                      src={homeimg2}
+                      alt="rasm"
+                    />
+                    <p>
+                      Jenny Wilson
+                      <span>Updated 1 day ago</span>
+                    </p>
+                  </li>
+                  <li>
+                    <Image
+                      className="img__list__img"
+                      src={homeimg3}
+                      alt="rasm"
+                    />
+                    <p>
+                      Annette Black
+                      <span>Updated 1 day ago</span>
+                    </p>
+                  </li>
+                  <li>
+                    <Image
+                      className="img__list__img"
+                      src={homeimg4}
+                      alt="rasm"
+                    />
+                    <p>
+                      Kathryn Murphy
+                      <span>Updated 1 day ago</span>
+                    </p>
+                  </li>
+                  <li>
+                    <Image
+                      className="img__list__img"
+                      src={homeimg5}
+                      alt="rasm"
+                    />
+                    <p>
+                      Kathryn Murphy
+                      <span>Updated 1 day ago</span>
+                    </p>
+                  </li>
+                  <li>
+                    <Image
+                      className="img__list__img"
+                      src={homeimg6}
+                      alt="rasm"
+                    />
+                    <p>
+                      {" "}
+                      Kristin Watson
+                      <span>Updated 1 day ago</span>
+                    </p>
+                  </li>
+                  <li>
+                    <Image
+                      className="img__list__img"
+                      src={homeimg7}
+                      alt="rasm"
+                    />
+                    <p>
+                      Eleanor Pena
+                      <span>Updated 1 day ago</span>
+                    </p>
+                  </li>
+                  <li>
+                    <Image
+                      className="img__list__img"
+                      src={homeimg8}
+                      alt="rasm"
+                    />
+                    <p>
+                      Guy Hawkins
+                      <span>Updated 1 day ago</span>
+                    </p>
+                  </li>
+                  <li>
+                    <Image
+                      className="img__list__img"
+                      src={homeimg9}
+                      alt="rasm"
+                    />
+                    <p>
+                      Brooklyn Simmons
+                      <span>Updated 1 day ago</span>
+                    </p>
+                  </li>
+                  <li>
+                    <Image
+                      className="img__list__img"
+                      src={homeimg10}
+                      alt="rasm"
+                    />
+                    <p>
+                      Robert Fox
+                      <span>Updated 1 day ago</span>
+                    </p>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h3>customer name</h3>
+                <ul className="home__bottom__item__list customer__list">
+                  <li>
+                    <p>Tom Cruise</p>
+                    <span>on 24.05.2019</span>
+                  </li>
+                  <li>
+                    <p>Tom Cruise</p>
+                    <span>on 24.05.2019</span>
+                  </li>
+                  <li>
+                    <p>Tom Cruise</p>
+                    <span>on 24.05.2019</span>
+                  </li>
+                  <li>
+                    <p>Tom Cruise</p>
+                    <span>on 24.05.2019</span>
+                  </li>
+                  <li>
+                    <p>Tom Cruise</p>
+                    <span>on 24.05.2019</span>
+                  </li>
+                  <li>
+                    <p>Tom Cruise</p>
+                    <span>on 24.05.2019</span>
+                  </li>
+                  <li>
+                    <p>Tom Cruise</p>
+                    <span>on 24.05.2019</span>
+                  </li>
+                  <li>
+                    <p>Tom Cruise</p>
+                    <span>on 24.05.2019</span>
+                  </li>
+                  <li>
+                    <p>Tom Cruise</p>
+                    <span>on 24.05.2019</span>
+                  </li>
+                  <li>
+                    <p>Tom Cruise</p>
+                    <span>on 24.05.2019</span>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h3>Date</h3>
+                <ul className="home__bottom__item__list data__list">
+                  <li>
+                    <p>May 26, 2019</p>
+                    <span>6:30 PM</span>
+                  </li>
+                  <li>
+                    <p>May 26, 2019</p>
+                    <span>6:30 PM</span>
+                  </li>
+                  <li>
+                    <p>May 26, 2019</p>
+                    <span>6:30 PM</span>
+                  </li>
+                  <li>
+                    <p>May 26, 2019</p>
+                    <span>6:30 PM</span>
+                  </li>
+                  <li>
+                    <p>May 26, 2019</p>
+                    <span>6:30 PM</span>
+                  </li>
+                  <li>
+                    <p>May 26, 2019</p>
+                    <span>6:30 PM</span>
+                  </li>
+                  <li>
+                    <p>May 26, 2019</p>
+                    <span>6:30 PM</span>
+                  </li>
+                  <li>
+                    <p>May 26, 2019</p>
+                    <span>6:30 PM</span>
+                  </li>
+                  <li>
+                    <p>May 26, 2019</p>
+                    <span>6:30 PM</span>
+                  </li>
+                  <li>
+                    <p>May 26, 2019</p>
+                    <span>6:30 PM</span>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h3>Priority</h3>
+                <ul className="home__bottom__item__list priority__list">
+                  <li>
+                    <p></p>
+                  </li>
+                  <li>
+                    <h4></h4>{" "}
+                  </li>
+                  <li>
+                    <p></p>
+                  </li>
+                  <li>
+                    <h2></h2>
+                  </li>
+                  <li>
+                    <p></p>
+                  </li>
+                  <li>
+                    <h2></h2>
+                  </li>
+                  <li>
+                    <h4></h4>{" "}
+                  </li>
+                  <li>
+                    <h2></h2>
+                  </li>
+                  <li>
+                    <p></p>
+                  </li>
+                  <li>
+                    <p></p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </main>
   );
